@@ -1,0 +1,32 @@
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #315ff5; /* Color de fondo del menú */
+    padding: 10px 0; /* Espaciado interno del menú */
+  }
+  
+  ul {
+    list-style-type: none; /* Quita los estilos de lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
+  }
+  
+  li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+  }
+  
+  a {
+    color: #ffffff; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 18px; /* Tamaño de fuente del enlace */
+    padding: 10px; /* Espaciado interno del enlace */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave de los estilos */
+  }
+  
+  a:hover {
+    background-color: #fff; /* Cambia el color de fondo a blanco cuando el cursor pasa sobre el enlace */
+    color: #000000; /* Cambia el color del texto a negro cuando el cursor pasa sobre el enlace */
+  }
+  
+  

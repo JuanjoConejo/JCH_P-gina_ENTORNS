@@ -1,14 +1,17 @@
+import './styles.css';
+
 // Descripción
 const presentacionJuanjo = 
 "¡Hola soc Juanjo Conejo Hernández, un programador en constant evolucio. Actualment estic fent un curs de programacio!"
 
 // URL de la imagen
-const IMATGE = "https://images.hola.com/imagenes/actualidad/20230124225179/quevedo-bizarrap-semana-antes-shakira-cancion-al/1-194-501/quevedo-t.jpg"
+const IMATGE = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQeGl7AXrtpNwYDkz2e0F78ICKmH5w7FPCg_1KIzFkKA&s"
 
 function Presentacio(){ 
     return(
         <div>
-            {presentacionJuanjo}
+            <p className="descripcion">{presentacionJuanjo}</p>
+            <br />
             <img src={IMATGE} />
         </div>
     )
