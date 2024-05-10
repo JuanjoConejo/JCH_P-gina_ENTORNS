@@ -1,4 +1,4 @@
-import './styles.css';
+import './styles2.css';
 
 function Navegacio (){
     return (
@@ -8,7 +8,10 @@ function Navegacio (){
                   <a href="/">Inici</a>
                </li>
                <li>
-                  <a href="about">about</a>
+                  <a href="curriculum">Currículum</a>
+               </li>
+               <li>
+                  <a href="gustos">Que m'agrada</a>
                </li>
             </ul>
         </nav>

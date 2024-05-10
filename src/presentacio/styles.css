@@ -1,13 +1,29 @@
-/* Estils image */
-img {
-    width: 400px; 
-    height: auto; 
-    border-radius: 30px; 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
-  }
+/* Estilos para la imagen */
+.img-presentacio {
+  width: 400px; 
+  height: auto; 
+  border-radius: 30px; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+  animation: jump 1s infinite alternate; /* Aplica la animación de salto */
+}
 
-/* Descripció */
-.descripcion {
+/* Define la animación de salto */
+@keyframes jump {
+  from {
+      transform: translateY(0); /* Empieza desde la posición original */
+  }
+  to {
+      transform: translateY(-10px); /* Sube 10px */
+  }
+}
+
+/* Detiene la animación cuando el ratón pasa por encima */
+.img-presentacio:hover {
+  animation-play-state: paused; /* Pausa la animación */
+}
+
+/* Descripción */
+.descripcion-home {
   font-family: Arial, sans-serif; 
   font-size: 24px; 
   color: #ffffff; 
@@ -15,7 +31,7 @@ img {
   line-height: 1.5; 
 }
 
-/*Estils de fons de pantalla */
+/* Estilos de fondo de pantalla */
 body {
   background-color: #f2f2f2; 
   margin: 0; 

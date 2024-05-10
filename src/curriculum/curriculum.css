@@ -1,0 +1,39 @@
+/* curriculum.css */
+
+/* Estilo para el contenedor principal */
+.curriculum-container {
+    text-align: center;
+}
+
+/* Estilo para la descripción del currículum */
+.descripcion {
+    font-size: 18px;
+    color: #050000;
+    text-align: center; /* Centra el texto */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 600px; /* Define un ancho máximo */
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilo para la imagen del currículum */
+.curriculum-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%; /* Cambia el tamaño máximo al 80% del contenedor */
+    max-height: 80vh; /* Establece una altura máxima del 80% del viewport height */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Efecto de zoom al pasar el ratón */
+.curriculum-img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import CV from './curriculum'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,8 +17,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "about",
-    element: <div>About</div>,
+    path: "curriculum",
+    element: <CV />,
   },
 ]);
 
