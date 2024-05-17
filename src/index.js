@@ -10,6 +10,7 @@ import {
   Link,
 } from "react-router-dom";
 import Menu from './menu/menu.js'
+import Gustos from './gustos/agrada.js'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "curriculum",
     element: <CV />,
+  },
+  {
+    path: "gustos",
+    element: <Gustos/>,
   },
 ]);
 

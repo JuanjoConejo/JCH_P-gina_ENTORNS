@@ -1,0 +1,41 @@
+/* Estilos para la sección "Me gusta" */
+body {
+  background-color: #1a1a2e; /* Azul oscuro */
+  color: #fff; /* Texto blanco */
+}
+
+.me-gusta-container {
+  margin-top: 20px;
+}
+
+.me-gusta-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.me-gusta-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.me-gusta-item {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.me-gusta-titulo {
+  font-weight: bold;
+}
+
+.me-gusta-descripcion {
+  display: block;
+  margin-top: 5px; /* ajusta según sea necesario */
+}
+
+.me-gusta-imagen {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}

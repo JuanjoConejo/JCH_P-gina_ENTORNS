@@ -3,19 +3,32 @@
 /* Estilo para el contenedor principal */
 .curriculum-container {
     text-align: center;
+    background: linear-gradient(to bottom, #050A30, #0F1E56); /* Degradado de azul oscuro a un tono más profundo */
+    padding: 50px 0; /* Añadimos espacio alrededor del contenido para separarlo del borde */
 }
 
 /* Estilo para la descripción del currículum */
 .descripcion {
     font-size: 18px;
-    color: #050000;
+    color: #ffffff; /* Cambiamos el color del texto a blanco */
     text-align: center; /* Centra el texto */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     max-width: 600px; /* Define un ancho máximo */
     margin-bottom: 20px;
 }
 
-
+/* Estilo para la imagen pequeña del currículum */
+.curriculum-img-small {
+    display: block;
+    margin: 0 auto;
+    width: 120px; /* Ancho fijo para que sea similar al de un botón */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
 
 /* Estilo para la imagen del currículum */
 .curriculum-img {
@@ -35,5 +48,3 @@
 .curriculum-img:hover {
     transform: scale(1.1); /* Aumenta el tamaño al 110% */
 }
-
-
