@@ -2,7 +2,7 @@
 body {
   background-color: #1a1a2e; /* Azul oscuro */
   color: #fff; /* Texto blanco */
-  font-family: Arial, sans-serif; /* Fuente genérica */
+  font-family: 'Georgia', serif; /* Fuente genérica */
 }
 
 .me-gusta-container {
