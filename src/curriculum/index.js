@@ -18,7 +18,7 @@ const instagramURL = "https://www.instagram.com/juanjoconejo/?hl=es";
 const githubURL = "https://github.com/JuanjoConejo";
 
 // Contenido del currículum
-const curriculumJuanjo = "¡Hola! Soy Juanjo Conejo Hernández, un entusiasta desarrollador web apasionado por crear experiencias digitales increíbles. Con experiencia en tecnologías como JavaScript, React y CSS, estoy siempre buscando aprender y mejorar mis habilidades. ¡Echa un vistazo a mi currículum a continuación!";
+const curriculumJuanjo = "Hola! Sóc en Juanjo Conejo Hernández, un entusiasta desenvolupador web apassionat per crear experiències digitals increïbles. Amb experiència en tecnologies com JavaScript, React i CSS, sempre estic buscant aprendre i millorar les meves habilitats. Fes una ullada al meu currículum a continuació! I no dubtis a seguir les meves xarxes socials!";
 
 function Curriculum() {
     return (
