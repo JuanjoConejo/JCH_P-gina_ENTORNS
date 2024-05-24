@@ -4,7 +4,12 @@
 .curriculum-container {
     text-align: center;
     background: linear-gradient(to bottom, #050A30, #0F1E56); /* Degradado de azul oscuro a un tono más profundo */
-    padding: 50px 0; /* Añadimos espacio alrededor del contenido para separarlo del borde */
+    padding: 50px 20px; /* Añadimos espacio alrededor del contenido para separarlo del borde */
+    min-height: 100vh; /* Aseguramos que el contenedor ocupe al menos el alto de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilo para la descripción del currículum */
@@ -12,39 +17,56 @@
     font-size: 18px;
     color: #ffffff; /* Cambiamos el color del texto a blanco */
     text-align: center; /* Centra el texto */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin: 0 auto 20px; /* Centra el contenedor horizontalmente y añade margen inferior */
     max-width: 600px; /* Define un ancho máximo */
-    margin-bottom: 20px;
+    line-height: 1.6; /* Mejora la legibilidad */
 }
 
 /* Estilo para la imagen pequeña del currículum */
 .curriculum-img-small {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 120px; /* Ancho fijo para que sea similar al de un botón */
     height: auto;
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    transition: transform 0.3s ease; /* Agrega una transición suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Efecto de zoom y sombra al pasar el ratón */
+.curriculum-img-small:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 110% */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Añade una sombra más pronunciada */
 }
 
 /* Estilo para la imagen del currículum */
 .curriculum-img {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 80%; /* Cambia el tamaño máximo al 80% del contenedor */
     max-height: 80vh; /* Establece una altura máxima del 80% del viewport height */
     height: auto;
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    transition: transform 0.3s ease; /* Agrega una transición suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega una transición suave */
 }
 
-/* Efecto de zoom al pasar el ratón */
+/* Efecto de zoom y sombra al pasar el ratón */
 .curriculum-img:hover {
     transform: scale(1.1); /* Aumenta el tamaño al 110% */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Añade una sombra más pronunciada */
+}
+
+/* Enlace de LinkedIn estilizado */
+.linkedin-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none; /* Elimina subrayado */
+    transition: transform 0.3s ease; /* Añade transición para el enlace */
+}
+
+.linkedin-link:hover {
+    transform: scale(1.1); /* Efecto de zoom */
 }

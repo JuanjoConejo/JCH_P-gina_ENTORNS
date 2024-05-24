@@ -1,4 +1,20 @@
-/* Estilos para la imagen */
+/* Estilos de fondo de pantalla */
+body {
+  background: #050A30;
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif; /* Cambio del tipo de letra a Georgia */
+}
+
+/* Estilo para la descripción */
+.descripcion-home {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Estilo para la imagen */
 .img-presentacio {
   width: 400px; 
   height: auto; 
@@ -20,20 +36,4 @@
 /* Detiene la animación cuando el ratón pasa por encima */
 .img-presentacio:hover {
   animation-play-state: paused; /* Pausa la animación */
-}
-
-/* Descripción */
-.descripcion-home {
-  font-family: Arial, sans-serif; 
-  font-size: 24px; 
-  color: #ffffff; 
-  margin-bottom: 20px; 
-  line-height: 1.5; 
-}
-
-/* Estilos de fondo de pantalla */
-body {
-  background-color: #f2f2f2; 
-  margin: 0; 
-  padding: 0;
 }
